@@ -1,0 +1,14 @@
+.project {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: $mainColorDarkLight;
+    color: $textColor;
+    & h2 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 600;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
+    }
+}

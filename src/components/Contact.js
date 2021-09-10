@@ -3,7 +3,7 @@ import { BiPhoneCall, MdMyLocation,
      GrLinkedin, GrFacebook, GrGithub} from "react-icons/all";
 import { IconContext } from "react-icons";
 import Fade from 'react-reveal/Fade';
-
+import { Link } from 'react-router-dom';
 export const Contact = (props) => {
     return (
         <> 
@@ -51,15 +51,19 @@ export const Contact = (props) => {
                         <div className="contact__card__detail__social-icons">
                             <IconContext.Provider value={{ className:"react-icon"}}>
                             <span>
-                                <GrLinkedin size={50}/>
+                                <Link to={{pathname:'https://www.linkedin.com/in/sandeep-singh-mehra-909a781b2'}} target="_parent" ><GrLinkedin size={50}/></Link>
                             </span>
                             <span>
-                                <GrFacebook size={50}/>
+                                <Link to={{pathname: 'https://www.facebook.com/sandeepsinghmehara'}} target="_parent">
+                                    <GrFacebook size={50}/>
+                                </Link>
                             </span>
                         
                             </IconContext.Provider>
                             <span>
-                                <GrGithub size={50} className="git-icon"/>
+                                <Link to={{pathname: 'https://github.com/sandeepsinghmehra'}} target="_parent">
+                                    <GrGithub size={50} className="git-icon"/>
+                                </Link>
                             </span>
                         </div>
                         </Fade>

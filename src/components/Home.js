@@ -1,7 +1,9 @@
 import React from 'react';
+import Resume from '../resume.pdf';
 import Fade from 'react-reveal/Fade';
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-scroll';
+import { Link as Links} from 'react-router-dom';
 import MainImage from '../images/home-main.svg';
 export const Home = (props) => {
     return (
@@ -42,7 +44,13 @@ export const Home = (props) => {
                             > 
                                 <button className="btn btn-blue" >Hire me</button>
                             </Link>
+                            <Links 
+                                to={Resume}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                             <button className="btn btn-pink">Resume</button>
+                            </Links>
                         </div>
                     </div>
                     </Fade>

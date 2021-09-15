@@ -6,6 +6,7 @@ import { Link } from 'react-scroll';
 import { Link as Links} from 'react-router-dom';
 import MainImage from '../images/home-main.svg';
 export const Home = (props) => {
+   
     return (
         <>
             <div className="row homeContainer" id={props.id}>
@@ -61,7 +62,14 @@ export const Home = (props) => {
                 </div>
                 </Fade>
             </div>
-            
+            <Link  to={"Project"}  
+                   spy={true}
+                   smooth={true}
+                   duration={1500}
+                   offset={0}
+            >
+                <div className="scroll-down"></div>
+            </Link>
         </>
     )
 }

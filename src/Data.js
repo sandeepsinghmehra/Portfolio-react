@@ -1,3 +1,6 @@
+import blog from './images/blog.jpg';
+import htmlPortfolio from './images/html-portfolio.jpg';
+import weatherApp from './images/weather-app.jpg';
 
 export const Data = [
     {
@@ -5,23 +8,15 @@ export const Data = [
       subtitle: "MERN Stack",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "http://blog-articles-app.herokuapp.com/",
-    },
-    {
-      title: "TextUtils",
-      subtitle: "React and Python",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://textutils.netlify.com",
+      image: `${blog}`,
+      link: "https://blog-articles-app.herokuapp.com/",
     },
     {
       title: "Portfolio with HTML & CSS",
       subtitle: "HTML & CSS",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
+      image: `${htmlPortfolio}`,
       link: "https://sandeepmehra-portfolio.netlify.app/",
     },
     {
@@ -29,14 +24,14 @@ export const Data = [
       subtitle: "JavaScript, HTML, & CSS",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
+      image: `${weatherApp}`,
       link: "https://weather-app-sandeep.netlify.app/",
     },
     {
         title: "Entertainment 365",
         subtitle: "JavaScript, HTML, & CSS",
         description: "",
-        image: "./project-3.gif",
+        image: "./pr",
         link: "https://365-entertainment.netlify.app/",
     },
     {

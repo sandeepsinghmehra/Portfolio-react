@@ -1,6 +1,6 @@
 .project {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     background-color: $mainColorDarkLight;
     color: $textColor;
@@ -10,5 +10,22 @@
         font-weight: 600;
         padding-top: 1rem;
         padding-bottom: 4rem;
+    }
+}
+.project_card {
+    width: 100%;
+    background-color: $mainColorDarkSecondary;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+    &_image {
+        width: 400px;
+        height: 250px;
+        img {
+            width: 400px;
+            height: 250px;
+        }
     }
 }

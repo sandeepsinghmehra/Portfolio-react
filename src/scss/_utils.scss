@@ -32,19 +32,31 @@
     text-decoration: none;
     outline:none;
     color: $white;
-    height: 5rem;
-    padding: 1.6rem 2rem;
+    height: 4rem;
+    padding: 1rem;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     border:none;
-    cursor: pointer;
+    cursor: pointer;   
+}
+.btn-blue {
+    background-color: $braces;
     margin-right: 8rem;
 }
-.btn-block {
-    width: 100%;
-    height: 5rem !important;
+.btn-pink {
+    background-color: $pink;
 }
+.btn-dark {
+    background-color: $mainColorDark;
+}
+.btn-group {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .form-heading{
     font-size:2rem;
     font-weight: 400;

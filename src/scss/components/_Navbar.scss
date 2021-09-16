@@ -19,21 +19,27 @@
         align-content: center;
     }
     &__left{
-        margin-left: 4rem;
+        margin-left: 5rem;
         font-size: 2.5rem;
         font-weight: 600;
     }
     &__right{
         display: flex;
         flex-direction: column;
-        margin-right: 4rem;
+        margin-right: 5rem;
         & li {
             font-size: 1.6rem;
             display: inline-block;
-            margin-left:  1.5rem;
+            margin-left: 1.5rem;
+            padding: 0.2rem;
+            border-bottom: 2px solid $mainColorDark;
             & a{
                 color: white;
             }
+        }
+        & li:hover{
+            border-bottom: 2px solid red;
+            transition: all .8s ease-in-out;
         }
     }
 }

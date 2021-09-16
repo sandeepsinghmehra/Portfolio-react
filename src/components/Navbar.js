@@ -9,15 +9,6 @@ export const Navbar = () => {
                     </div>
                     <div className="navbar__right">
                         <ul>
-                            <li>
-                                <Link 
-                                    to="Home"
-                                    spy={true}
-                                    smooth={true}
-                                    duration={500}
-                                    offset={-80}
-                                >Home</Link>
-                            </li>
                             <li><Link 
                                     to="Project"
                                     spy={true}
@@ -32,7 +23,7 @@ export const Navbar = () => {
                                     smooth={true}
                                     duration={1500}
                                     offset={0}
-                                >About Me</Link>
+                                >About</Link>
                             </li>
                            
                             <li><Link

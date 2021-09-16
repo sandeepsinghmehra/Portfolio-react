@@ -3,9 +3,10 @@
     height: calc(100vh - 7rem);
     background-color: $mainColorDarkSecondary;
     scroll-behavior: smooth;
+    overflow: hidden;
     position: relative;
     color: $textColor;
-    padding-left: 4rem;
+    padding-left: 5rem;
     &__left{
         display: flex;
         flex-direction: column;
@@ -30,7 +31,7 @@
     }
     &__name {
         font-weight: 500;
-        color: $myName;
+        color: $pink;
         text-shadow: 2px -3px 3px rgba(27, 6, 6, 0.95);
     }
     &__braces {
@@ -40,7 +41,7 @@
     }
     &__button {
         padding-top: 3rem;
-        padding-left: 1rem;
+        padding-left: 0rem;
         display: flex;
         flex-direction: row;
     }
@@ -54,12 +55,7 @@
     text-shadow: 2px -3px 3px rgba(27, 6, 6, 0.95);
 }
 
-.btn-blue {
-    background-color: $braces;
-}
-.btn-pink {
-    background-color: $myName;
-}
+
 .scroll-down {
     height: 40px;
     width: 25px;

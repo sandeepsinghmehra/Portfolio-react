@@ -11,6 +11,7 @@ import Sass from '../images/sass.png';
 import Reduxpic from '../images/redux.png';
 import Vscode from '../images/vscode.png';
 
+
 export const About = (props) => {
     return (
         <>

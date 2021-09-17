@@ -1,8 +1,33 @@
+@include responsive(mobile){
+    div > .contact {
+        width: 100%;
+        padding: 2rem;
+        h2 {
+            font-size: 2.4rem;
+        }
+        div > &__card {
+            display: flex;
+            flex-direction: column;
+            font-size: 1.3rem;
+            div > &__card {
+                margin: 0rem;
+                padding: 2px;
+            }
+            div > &__detail {
+                height: 40rem;
+                margin: 0rem;
+                & h2 {
+                    font-size: 2.4rem;
+                }
+            }
+        }
+       
+    }
+}
 .contact {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 8rem;
-    position: relative;
     background-color: $mainColorDarkSecondary;
     color: $textColor;
     h2 {
@@ -16,14 +41,12 @@
         flex-direction: row;
         justify-content: space-between;
         font-size: 2rem;
-        position: relative;
         &__card {
             width: 100%;
             margin: 1rem;
             border: none;
             outline: none;
             text-align: left;
-            position: relative;
             background-color: $mainColorDarkLight;
             padding: 4rem;
             &__group{
@@ -48,8 +71,8 @@
         }
         &__detail {
             width: 100%;
-            position: relative;
             padding: 2rem;
+            position: relative;
             margin: 1rem;
             border: 5px solid $mainColorDarkLight;
             & h2 {

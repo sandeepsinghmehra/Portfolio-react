@@ -46,8 +46,7 @@ export const About = (props) => {
                         <img src={Bootstrap} alt={Bootstrap} />
                         <p className="skill__card__title">Bootstrap</p>
                     </div>
-                </div> 
-                <div className="skill__div">
+
                     <div className="skill__card">
                         <img src={Js} alt={Js} />
                         <p className="skill__card__title">JavaScript</p>
@@ -65,8 +64,7 @@ export const About = (props) => {
                         <p className="skill__card__title">Node Js</p>
                     </div>
                    
-                </div> 
-                <div className="skill__div">
+                
                     <div className="skill__card">
                         <img src={Express} alt={Express} />
                         <p className="skill__card__title">Express Js</p>

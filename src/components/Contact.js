@@ -30,7 +30,7 @@ export const Contact = (props) => {
                     </Fade>
                     <Fade right>
                     <div className="contact__card__detail">
-                        <h2>Contact Information</h2>
+                        <h2>Contact Info</h2>
                         <div className="contact__card__detail__info"> 
                             <span>Sandeep Mehra</span>
                             <span><RiShieldUserLine size={30} /> </span>

@@ -1,26 +1,6 @@
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    @include responsive(mobile){
-        width: 100%;
-        padding: 0 2rem;
-    }
-    @include responsive(tablet){
-        width: 100%;
-        padding: 0 2rem;
-    }
-    @include responsive(laptop){
-        width: 100%;
-        padding: 0 2rem;
-    }
-    @include responsive(desktop){
-        width: 100%;
-        padding: 0 2rem;
-    }
-}
+
 .footer {
     padding: 2rem;
-    position: relative;
     text-align: center; 
     color: white;  
     background: $mainColorDark;
@@ -32,7 +12,6 @@
     text-decoration: none;
     outline:none;
     color: $white;
-    height: 4rem;
     padding: 1rem;
     text-transform: uppercase;
     text-align: center;
@@ -51,35 +30,10 @@
     background-color: $mainColorDark;
 }
 .btn-group {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.form-heading{
-    font-size:2rem;
-    font-weight: 400;
-}
-
-.card {
-    background: $white;
-    padding: 1.5rem;
-    &_h3{
-        font-size: 1.6rem;
-        font-weight: 400;
-        margin-bottom: 2rem;
-    }
-}
-label {
-    display: block;
-    font-size: 1.3rem;
-    margin-bottom: .4rem;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    place-self: center stretch;
+    row-gap: 3rem;
 }
 
 
-
-a {
-    text-decoration: none;
-    color: $black;
-}

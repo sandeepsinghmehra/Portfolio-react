@@ -1,3 +1,35 @@
+@include responsive(mobile){
+  .homeContainer {
+      width: 100%;
+      height: calc(100vh - 7rem);
+      div > &__right {
+        display: none;
+      }
+  }
+  div > .Typewriter {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #AE00FB;
+    text-shadow: 2px -3px 3px rgba(27, 6, 6, 0.95);
+  }
+  .home {
+    div > &__hello {
+        font-size: 4rem;
+        font-weight: 400;
+        text-shadow: 2px -3px 3px rgba(27, 6, 6, 0.95);
+    }
+    div > &__name {
+        font-weight: 500;
+        color: $pink;
+        text-shadow: 2px -3px 3px rgba(27, 6, 6, 0.95);
+    }
+    div > &__braces {
+        font-size: 3rem;
+        font-weight: 400;
+        color: $braces;
+    }
+  }
+}
 .homeContainer {
     width: 100%;
     height: calc(100vh - 7rem);
@@ -61,7 +93,7 @@
     width: 25px;
     position: absolute;
     left: 50%;
-    bottom: 10px;
+    bottom: 15px;
     cursor: pointer;
   }
   .scroll-down::before,

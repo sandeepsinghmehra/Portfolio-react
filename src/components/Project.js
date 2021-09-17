@@ -16,9 +16,9 @@ export const Project = (props) => {
                     <h3>{Data[0].title}</h3>
                     <p>{Data[0].description}</p>
                     <div className="btn-group">
-                        <span><button className="btn btn-dark">React</button></span>
-                        <span><button className="btn btn-dark">NodeJs</button></span>
+                        <span><button className="btn btn-dark">ReactJs</button></span>
                         <span><button className="btn btn-dark">MongoDB</button></span>
+                        <span><button className="btn btn-dark">NodeJs</button></span>
                         <span><button className="btn btn-dark">ExpressJs</button></span>
                     </div>
                     <div>
@@ -65,8 +65,8 @@ export const Project = (props) => {
                     <p>{Data[2].description}</p>
                     <div className="btn-group">
                         <span><button className="btn btn-dark">Html</button></span>
-                        <span><button className="btn btn-dark">css</button></span>
                         <span><button className="btn btn-dark">JavaScript</button></span>
+                        <span><button className="btn btn-dark">Css</button></span>
                     </div>
                     <div>
                         <Link to={{pathname: Data[2].githubLink}} target="_blank">

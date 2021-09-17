@@ -32,11 +32,7 @@
     color: white;
     text-align: center;
     padding-top: 6rem;
-    & h2 {
-        font-size: 3rem;
-        font-weight: 600;
-        padding-bottom: 4rem;
-    }
+    
     & p {
         font-size: 1.6rem;
         font-weight: 400;
@@ -58,12 +54,7 @@ img {
     justify-content: center;
     padding: 5rem;
     text-align: center;
-    h2 {
-        font-size: 3rem;
-        font-weight: 600;
-        padding-top: 1rem;
-        padding-bottom: 4rem;
-    }
+    
     &__div {
         display: grid;
         grid-template-columns:repeat(4, 1fr);

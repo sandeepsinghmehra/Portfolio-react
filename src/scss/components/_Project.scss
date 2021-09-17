@@ -1,8 +1,8 @@
 @include responsive(mobile){
     div > .project_card {
         flex-direction: column;
-        margin-left: 2.3rem;
-        margin-right: 2.3rem;
+        margin-left: 2.2rem;
+        margin-right: 2.2rem;
         &_image {
             display: block;
             width: 100%;
@@ -27,23 +27,17 @@
     background-color: $mainColorDarkLight;
     color: $textColor;
     overflow: hidden;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    & h2 {
-        text-align: center;
-        font-size: 3rem;
-        font-weight: 600;
-        padding-top: 1rem;
-        padding-bottom: 4rem;
-    }
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 .project_card {
     width: 90%;
     background-color: $mainColorDarkSecondary;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-left: 5rem;
     margin-right: 5rem;
     position: relative;
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;

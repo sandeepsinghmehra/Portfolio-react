@@ -20,7 +20,6 @@ export const About = (props) => {
                 <p>My name is Sandeep Singh Mehra. I'm a web designer and developer based in Haldwani, India.</p>
 
                 <p>I'm a fresher in web-development. During the evenings I spend my time working on projects and building my own products in websites.</p>
-                <p>My love of beautiful websites and curiosity made me discover and explore Web development which naturally, led to my great interest in front-end web development.</p>
 
                 <p>I learnt the basics like HTML, CSS, & Javascript and then tried my hands on framework that was popular at the moment - React.js</p>
 

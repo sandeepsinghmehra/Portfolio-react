@@ -30,12 +30,7 @@
     padding: 8rem;
     background-color: $mainColorDarkSecondary;
     color: $textColor;
-    h2 {
-        text-align: center;
-        font-size: 3rem;
-        font-weight: 600;
-        padding-bottom: 1rem;
-    }
+  
     &__card {
         display: flex;
         flex-direction: row;

@@ -19,9 +19,8 @@
         text-shadow: 2px -3px 3px rgba(27, 6, 6, 0.95);
     }
     div > &__name {
-        font-weight: 500;
-        color: $pink;
-        text-shadow: 2px -3px 3px rgba(27, 6, 6, 0.95);
+      font-size: 3.6rem;
+      font-weight: 500;
     }
     div > &__braces {
         font-size: 3rem;

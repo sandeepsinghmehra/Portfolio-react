@@ -46,7 +46,7 @@ export const Navbar = () => {
                                     spy={true}
                                     smooth={true}
                                     duration={1500}
-                                    offset={0}
+                                    offset={200}
                                 ><AiFillProject size="30" /></Link></li>
                             <li>
                                 <Link 
@@ -54,7 +54,7 @@ export const Navbar = () => {
                                     spy={true}
                                     smooth={true}
                                     duration={3000}
-                                    offset={0}
+                                    offset={200}
                                 ><FcAbout size="30" /></Link>
                             </li>
                            
@@ -63,7 +63,7 @@ export const Navbar = () => {
                                     spy={true}
                                     smooth={true}
                                     duration={4500}
-                                    offset={0}
+                                    offset={200}
                                 ><FcContacts size="30"/></Link></li>
                         </ul>   
                     </div>

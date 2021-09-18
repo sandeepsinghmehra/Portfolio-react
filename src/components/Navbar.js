@@ -24,7 +24,7 @@ export const Navbar = () => {
                                     to="About"
                                     spy={true}
                                     smooth={true}
-                                    duration={1500}
+                                    duration={3000}
                                     offset={0}
                                 >About</Link>
                             </li>
@@ -33,7 +33,7 @@ export const Navbar = () => {
                                     to="Contact"
                                     spy={true}
                                     smooth={true}
-                                    duration={1500}
+                                    duration={4500}
                                     offset={0}
                                 >Contact</Link></li>
                         </ul>   
@@ -53,7 +53,7 @@ export const Navbar = () => {
                                     to="About"
                                     spy={true}
                                     smooth={true}
-                                    duration={1500}
+                                    duration={3000}
                                     offset={0}
                                 ><FcAbout size="30" /></Link>
                             </li>
@@ -62,7 +62,7 @@ export const Navbar = () => {
                                     to="Contact"
                                     spy={true}
                                     smooth={true}
-                                    duration={1500}
+                                    duration={4500}
                                     offset={0}
                                 ><FcContacts size="30"/></Link></li>
                         </ul>   

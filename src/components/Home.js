@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../resume.pdf';
+import Resume from '../images/resume.pdf';
 import Fade from 'react-reveal/Fade';
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-scroll';

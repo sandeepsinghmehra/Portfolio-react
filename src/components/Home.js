@@ -5,15 +5,20 @@ import Typewriter from 'typewriter-effect';
 import { Link } from 'react-scroll';
 import { Link as Links} from 'react-router-dom';
 import MainImage from '../images/home-main.svg';
+
+
+  
 export const Home = (props) => {
-   
+    
     return (
         <>
             <div className="row homeContainer" id={props.id}>
+               
                 <div className="col-6 homeContainer__left">
                     <Fade left>
                     <div>
-                        <span className="home__hello">Hello! <br />
+                        <span className="home__hello">Hello!    
+                        <br />
                             <span className="home__im" > I'm </span>
                             <strong className="home__name">Sandeep Mehra</strong>
                         </span>

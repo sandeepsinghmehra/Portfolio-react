@@ -18,10 +18,7 @@
             & li {
                 font-size: 1.6rem;
                 display: inline-block;
-                margin-left: 1.5rem;
-                & a{
-                    color: white;
-                }
+                margin-left: 1rem;
                 
             }
         }
@@ -29,11 +26,26 @@
     
    
 }
+.modeIcon {
+    @include themed() {
+      color: t('text');
+      background: t('bg');
+    }
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
 .navbar {
-    background-color: $mainColorDark;
+    @include themed() {
+        color: t('text');
+        background: t('bg');
+    }
     width: 100%;
     height: 7rem;
-    color: $textColor;
     position: relative;
     top: 0;
     left: 0;
@@ -63,9 +75,11 @@
             display: inline-block;
             margin-left: 1.5rem;
             padding: 0.2rem;
-            border-bottom: 2px solid $mainColorDark;
+            border-bottom: 2px solid transparent;
             & a{
-                color: white;
+                @include themed() {
+                    color: t('text');
+                }
             }
         }
         & li:hover{

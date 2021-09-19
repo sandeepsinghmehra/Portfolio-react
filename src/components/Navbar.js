@@ -1,7 +1,15 @@
-import { FcAbout, AiFillProject, FcContacts} from 'react-icons/all';
+import {useContext} from 'react';
+import { FcAbout, AiFillProject, FcContacts, FiSun, HiMoon} from 'react-icons/all';
 import { Link } from 'react-scroll';
+import ThemeContext from "./Contexts/ThemeContext";
 
-export const Navbar = () => {
+export const Navbar = (props) => {
+    const { theme, setTheme } = useContext(ThemeContext);
+    const dark = 'dark';
+    const light = 'light';
+    const clickEvent = (e) => {
+        setTheme(e.currentTarget.value);
+    }
     return (
         <>
            <nav className="navbar" id="navbar">
@@ -36,6 +44,12 @@ export const Navbar = () => {
                                     duration={4500}
                                     offset={0}
                                 >Contact</Link></li>
+                            <li>
+                            { theme === "dark" ? 
+                                <button className="modeIcon" value={light} onClick={clickEvent}><FiSun /></button>:
+                                <button className="modeIcon" value={dark} onClick={clickEvent}><HiMoon /></button>
+                            }
+                            </li>
                         </ul>   
                     </div>
                     <div className="navbar__mobile">
@@ -47,7 +61,7 @@ export const Navbar = () => {
                                     smooth={true}
                                     duration={1500}
                                     offset={0}
-                                ><AiFillProject size="30" /></Link></li>
+                                ><AiFillProject size="25" /></Link></li>
                             <li>
                                 <Link 
                                     to="About"
@@ -55,7 +69,7 @@ export const Navbar = () => {
                                     smooth={true}
                                     duration={4000}
                                     offset={0}
-                                ><FcAbout size="30" /></Link>
+                                ><FcAbout size="25" /></Link>
                             </li>
                            
                             <li><Link
@@ -64,7 +78,14 @@ export const Navbar = () => {
                                     smooth={true}
                                     duration={5500}
                                     offset={0}
-                                ><FcContacts size="30"/></Link></li>
+                                ><FcContacts size="25"/></Link>
+                            </li>
+                            <li>
+                            { theme === "dark" ? 
+                                <button className="modeIcon" value={light} onClick={clickEvent}><FiSun size="25" /></button>:
+                                <button className="modeIcon" value={dark} onClick={clickEvent}><HiMoon size="25" /></button>
+                            }
+                            </li>
                         </ul>   
                     </div>
                 </div>

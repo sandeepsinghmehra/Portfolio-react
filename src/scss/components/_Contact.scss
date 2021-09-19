@@ -16,6 +16,7 @@
             div > &__detail {
                 height: 40rem;
                 margin: 0rem;
+                border: 5px solid $mainColorLightDark;
                 & h2 {
                     font-size: 2.4rem;
                 }
@@ -28,9 +29,10 @@
     width: 100%;
     min-height: 100vh;
     padding: 8rem;
-    background-color: $mainColorDarkSecondary;
-    color: $textColor;
-  
+    @include themed() {
+        color: t('text');
+        background: t('bgSec');
+    }
     &__card {
         display: flex;
         flex-direction: row;
@@ -42,7 +44,10 @@
             border: none;
             outline: none;
             text-align: left;
-            background-color: $mainColorDarkLight;
+            @include themed() {
+                color: t('text');
+                background: t('bgLight');
+            }
             padding: 4rem;
             &__group{
                 padding: 1rem;

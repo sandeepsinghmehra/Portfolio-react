@@ -28,12 +28,18 @@
 }
 .about {
     width: 100%;
-    background-color: $mainColorDark;
-    color: white;
+    @include themed() {
+        color: t('text');
+        background: t('bg');
+    }
     text-align: center;
     padding-top: 6rem;
     
     & p {
+        @include themed() {
+            color: t('text');
+            background: t('bg');
+        }
         font-size: 1.6rem;
         font-weight: 400;
         padding-left: 20%;
@@ -48,8 +54,10 @@ img {
 }
 .skill {
     width: 100%;
-    background-color: $mainColorDark;
-    color: $textColor;
+    @include themed() {
+        color: t('text');
+        background: t('bg');
+    }
     position: relative;
     justify-content: center;
     padding: 5rem;

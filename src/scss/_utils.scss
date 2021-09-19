@@ -25,7 +25,10 @@ h2 {
     background-color: $pink;
 }
 .btn-dark {
-    background-color: $mainColorDark;
+    @include themed() {
+        color: t('text');
+        background: t('bg');
+    }
 }
 .btn-group {
     display: grid;
@@ -37,8 +40,10 @@ h2 {
 .footer {
     padding: 2rem;
     text-align: center; 
-    color: white;  
-    background: $mainColorDark;
+    @include themed() {
+        color: t('text');
+        background: t('bg');
+    }
     font-size: 1.8rem;
     font-weight: 500;
 }

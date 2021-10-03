@@ -1,8 +1,8 @@
-import blog from './images/blog.jpg';
-import htmlPortfolio from './images/html-portfolio.jpg';
-import weatherApp from './images/weather-app.jpg';
-import Image from './images/image.jpg';
-import Entertainment from './images/entertainment.jpg';
+import blog from './images/blog.webp';
+import htmlPortfolio from './images/html-portfolio.webp';
+import weatherApp from './images/weather-app.webp';
+import Image from './images/image.webp';
+import Entertainment from './images/entertainment.webp';
 export const Data = [
     {
       title: "Blogging Site",

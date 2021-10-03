@@ -1,15 +1,15 @@
-import Html from '../images/html.png';
-import Css from '../images/css.png';
-import Js from '../images/javascript.png';
-import Bootstrap from '../images/bootstrap.png';
-import Express from '../images/expressjs.png';
-import Git from '../images/git.png';
-import MongoDb from '../images/mongodb.png';
-import Node from '../images/node.svg';
-import Reactpic from '../images/react.png';
-import Sass from '../images/sass.png';
-import Reduxpic from '../images/redux.png';
-import Vscode from '../images/vscode.png';
+import Html from '../images/html.webp';
+import Css from '../images/css.webp';
+import Js from '../images/javascript.webp';
+import Bootstrap from '../images/bootstrap.webp';
+import Express from '../images/expressjs.webp';
+import Git from '../images/git.webp';
+import MongoDb from '../images/mongodb.webp';
+import Node from '../images/node.webp';
+import Reactpic from '../images/react.webp';
+import Sass from '../images/sass.webp';
+import Reduxpic from '../images/redux.webp';
+import Vscode from '../images/vscode.webp';
 
 
 export const About = (props) => {

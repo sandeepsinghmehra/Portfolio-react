@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-scroll';
 import { Link as Links} from 'react-router-dom';
-import MainImage from '../images/home-main.svg';
+import MainImage from '../images/home-main.webp';
 
 
   

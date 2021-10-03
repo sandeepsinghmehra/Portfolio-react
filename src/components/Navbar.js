@@ -3,7 +3,7 @@ import { FcAbout, AiFillProject, FcContacts, FiSun, HiMoon} from 'react-icons/al
 import { Link } from 'react-scroll';
 import ThemeContext from "./Contexts/ThemeContext";
 
-export const Navbar = (props) => {
+export const Navbar = () => {
     const { theme, setTheme } = useContext(ThemeContext);
     const dark = 'dark';
     const light = 'light';
@@ -46,8 +46,8 @@ export const Navbar = (props) => {
                                 >Contact</Link></li>
                             <li>
                             { theme === "dark" ? 
-                                <button className="modeIcon" value={light} onClick={clickEvent}><FiSun /></button>:
-                                <button className="modeIcon" value={dark} onClick={clickEvent}><HiMoon /></button>
+                                <span className="modeIcon" ><FiSun value={light} onClick={clickEvent}/></span>:
+                                <span className="modeIcon" ><HiMoon value={dark} onClick={clickEvent}/></span>
                             }
                             </li>
                         </ul>   
@@ -82,8 +82,8 @@ export const Navbar = (props) => {
                             </li>
                             <li>
                             { theme === "dark" ? 
-                                <button className="modeIcon" value={light} onClick={clickEvent}><FiSun size="25" /></button>:
-                                <button className="modeIcon" value={dark} onClick={clickEvent}><HiMoon size="25" /></button>
+                                <span className="modeIcon" ><FiSun size="25"  value={light} onClick={clickEvent} /></span>:
+                                <span className="modeIcon" ><HiMoon size="25"  value={dark} onClick={clickEvent}/></span>
                             }
                             </li>
                         </ul>   

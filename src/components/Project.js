@@ -38,8 +38,8 @@ export const Project = (props) => {
                     <h3>{Data[1].title}</h3>
                     <p>{Data[1].description}</p>
                     <div className="btn-group">
-                        <span><button className="btn btn-dark">React</button></span>
-                        <span><button className="btn btn-dark">Scss</button></span>
+                        <span className="btn btn-dark">React</span>
+                        <span className="btn btn-dark">Scss</span>
                     </div>
                     <div>
                         <Link to={{pathname: Data[1].githubLink}} target="_blank">
@@ -64,9 +64,9 @@ export const Project = (props) => {
                     <h3>{Data[2].title}</h3>
                     <p>{Data[2].description}</p>
                     <div className="btn-group">
-                        <span><button className="btn btn-dark">Html</button></span>
-                        <span><button className="btn btn-dark">JavaScript</button></span>
-                        <span><button className="btn btn-dark">Css</button></span>
+                        <span className="btn btn-dark">Html</span>
+                        <span className="btn btn-dark">JavaScript</span>
+                        <span className="btn btn-dark">Css</span>
                     </div>
                     <div>
                         <Link to={{pathname: Data[2].githubLink}} target="_blank">
@@ -85,8 +85,8 @@ export const Project = (props) => {
                     <h3>{Data[3].title}</h3>
                     <p>{Data[3].description}</p>
                     <div className="btn-group">
-                        <span><button className="btn btn-dark">Html</button></span>
-                        <span><button className="btn btn-dark">css</button></span>
+                        <span className="btn btn-dark">Html</span>
+                        <span className="btn btn-dark">css</span>
                     </div>
                     <div>
                         <Link to={{pathname: Data[3].githubLink}} target="_blank">
@@ -111,9 +111,9 @@ export const Project = (props) => {
                     <h3>{Data[4].title}</h3>
                     <p>{Data[4].description}</p>
                     <div className="btn-group">
-                        <span><button className="btn btn-dark">Html</button></span>
-                        <span><button className="btn btn-dark">css</button></span>
-                        <span><button className="btn btn-dark">JavaScript</button></span>
+                        <span className="btn btn-dark">Html</span>
+                        <span className="btn btn-dark">css</span>
+                        <span className="btn btn-dark">JavaScript</span>
                     </div>
                     <div>
                         <Link to={{pathname: Data[4].githubLink}} target="_blank">

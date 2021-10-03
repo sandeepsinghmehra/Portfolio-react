@@ -59,8 +59,8 @@ export const About = (props) => {
                         <p className="skill__card__title">Redux</p>
                     </div>  
                     <div className="skill__card">
-                        <img src={Node} alt={Node} />
-                        <p className="skill__card__title">Node Js</p>
+                        <img className="mg-top-16" style={{height:"4.9rem"}} src={Node} alt={Node} />
+                        <p className="skill__card__title mg-top-15">Node Js</p>
                     </div>
                    
                 

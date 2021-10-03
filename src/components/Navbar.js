@@ -46,8 +46,8 @@ export const Navbar = () => {
                                 >Contact</Link></li>
                             <li>
                             { theme === "dark" ? 
-                                <span className="modeIcon" ><FiSun value={light} onClick={clickEvent}/></span>:
-                                <span className="modeIcon" ><HiMoon value={dark} onClick={clickEvent}/></span>
+                                <span><button className="modeIcon" value={light} onClick={clickEvent} aria-label="light-theme"><FiSun /></button></span>:
+                                <span><button className="modeIcon" value={dark} onClick={clickEvent} aria-label="dark-theme"><HiMoon /></button></span>
                             }
                             </li>
                         </ul>   
@@ -82,8 +82,8 @@ export const Navbar = () => {
                             </li>
                             <li>
                             { theme === "dark" ? 
-                                <span className="modeIcon" ><FiSun size="25"  value={light} onClick={clickEvent} /></span>:
-                                <span className="modeIcon" ><HiMoon size="25"  value={dark} onClick={clickEvent}/></span>
+                                <span><button className="modeIcon" value={light} onClick={clickEvent} aria-label="light-theme"><FiSun size="25" /></button></span>:
+                                <span><button className="modeIcon" value={dark} onClick={clickEvent} aria-label="dark-theme"><HiMoon size="25"  /></button></span>
                             }
                             </li>
                         </ul>   

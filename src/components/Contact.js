@@ -51,17 +51,18 @@ export const Contact = (props) => {
                         <div className="contact__card__detail__social-icons">
                             <IconContext.Provider value={{ className:"react-icon"}}>
                             <span>
-                                <Link to={{pathname:'https://www.linkedin.com/in/sandeep-singh-mehra-909a781b2'}} target="_parent" ><GrLinkedin size={50}/></Link>
+                                <Link to={{pathname:'https://www.linkedin.com/in/sandeep-singh-mehra-909a781b2'}} target="_blank" rel="noopener" aria-label="linkedIn" >
+                                    <GrLinkedin size={50}/></Link>
                             </span>
                             <span>
-                                <Link to={{pathname: 'https://www.facebook.com/sandeepsinghmehara'}} target="_parent">
+                                <Link to={{pathname: 'https://www.facebook.com/sandeepsinghmehara'}} target="_blank" rel="noopener" aria-label="facebook">
                                     <GrFacebook size={50}/>
                                 </Link>
                             </span>
                         
                             </IconContext.Provider>
                             <span>
-                                <Link to={{pathname: 'https://github.com/sandeepsinghmehra'}} target="_parent">
+                                <Link to={{pathname: 'https://github.com/sandeepsinghmehra'}} target="_blank" rel="noopener" aria-label="github">
                                     <GrGithub size={50} className="git-icon"/>
                                 </Link>
                             </span>

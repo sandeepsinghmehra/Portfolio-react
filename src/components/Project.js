@@ -22,10 +22,10 @@ export const Project = (props) => {
                         <span className="btn btn-dark">ExpressJs</span>
                     </div>
                     <div>
-                        <Link to={{pathname: Data[0].githubLink}} target="_blank">
+                        <Link to={{pathname: Data[0].githubLink}} target="_blank" rel="noopener">
                             Source Code
                         </Link>
-                        <Link to={{pathname:Data[0].link}} target="_blank" >
+                        <Link to={{pathname:Data[0].link}} target="_blank" rel="noopener">
                             Demo
                         </Link>
                     </div>
@@ -42,10 +42,10 @@ export const Project = (props) => {
                         <span className="btn btn-dark">Scss</span>
                     </div>
                     <div>
-                        <Link to={{pathname: Data[1].githubLink}} target="_blank">
+                        <Link to={{pathname: Data[1].githubLink}} target="_blank" rel="noopener">
                             Source Code
                         </Link>
-                        <Link to={{pathname:Data[1].link}} target="_blank" >
+                        <Link to={{pathname:Data[1].link}} target="_blank" rel="noopener">
                             Demo
                         </Link>
                     </div>
@@ -69,10 +69,10 @@ export const Project = (props) => {
                         <span className="btn btn-dark">Css</span>
                     </div>
                     <div>
-                        <Link to={{pathname: Data[2].githubLink}} target="_blank">
+                        <Link to={{pathname: Data[2].githubLink}} target="_blank" rel="noopener">
                             Source Code
                         </Link>
-                        <Link to={{pathname:Data[2].link}} target="_blank" >
+                        <Link to={{pathname:Data[2].link}} target="_blank" rel="noopener">
                             Demo 
                         </Link>
                     </div>
@@ -89,10 +89,10 @@ export const Project = (props) => {
                         <span className="btn btn-dark">css</span>
                     </div>
                     <div>
-                        <Link to={{pathname: Data[3].githubLink}} target="_blank">
+                        <Link to={{pathname: Data[3].githubLink}} target="_blank" rel="noopener">
                             Source Code
                         </Link>
-                        <Link to={{pathname:Data[3].link}} target="_blank" >
+                        <Link to={{pathname:Data[3].link}} target="_blank" rel="noopener">
                             Demo
                         </Link>
                     </div>
@@ -116,10 +116,10 @@ export const Project = (props) => {
                         <span className="btn btn-dark">JavaScript</span>
                     </div>
                     <div>
-                        <Link to={{pathname: Data[4].githubLink}} target="_blank">
+                        <Link to={{pathname: Data[4].githubLink}} target="_blank" rel="noopener">
                             Source Code
                         </Link>
-                        <Link to={{pathname:Data[4].link}} target="_blank" >
+                        <Link to={{pathname:Data[4].link}} target="_blank" rel="noopener">
                             Demo
                         </Link>
                     </div>

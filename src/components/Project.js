@@ -16,10 +16,10 @@ export const Project = (props) => {
                     <h3>{Data[0].title}</h3>
                     <p>{Data[0].description}</p>
                     <div className="btn-group">
-                        <span><button className="btn btn-dark">ReactJs</button></span>
-                        <span><button className="btn btn-dark">MongoDB</button></span>
-                        <span><button className="btn btn-dark">NodeJs</button></span>
-                        <span><button className="btn btn-dark">ExpressJs</button></span>
+                        <span className="btn btn-dark">ReactJs</span>
+                        <span className="btn btn-dark">MongoDB</span>
+                        <span className="btn btn-dark">NodeJs</span>
+                        <span className="btn btn-dark">ExpressJs</span>
                     </div>
                     <div>
                         <Link to={{pathname: Data[0].githubLink}} target="_blank">

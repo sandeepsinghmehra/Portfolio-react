@@ -47,6 +47,7 @@ export const Home = (props) => {
                                 smooth={true}
                                 duration={1500}
                                 offset={0}
+                                title="Hire Me"
                             > 
                                 <button className="btn btn-blue" >Hire me</button>
                             </Link>
@@ -54,6 +55,7 @@ export const Home = (props) => {
                                 to={Resume}
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                title="Resume"
                             >
                             <button className="btn btn-pink">Resume</button>
                             </Links>
@@ -63,7 +65,7 @@ export const Home = (props) => {
                 </div>
                 <Fade right>
                 <div className="col-6 homeContainer__right">
-                    <img src={MainImage} alt={MainImage} />
+                    <img src={MainImage} alt={MainImage} title="Boy Image" />
                 </div>
                 </Fade>
             </div>

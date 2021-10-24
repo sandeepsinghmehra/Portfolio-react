@@ -14,7 +14,7 @@ export const Navbar = () => {
         <>
            <nav className="navbar" id="navbar">
                <div className="navbar__main">
-                    <div className="navbar__left">
+                    <div className="navbar__left" title="Name">
                         Sandeep Mehra
                     </div>
                     <div className="navbar__right">
@@ -26,6 +26,7 @@ export const Navbar = () => {
                                     smooth={true}
                                     duration={1500}
                                     offset={0}
+                                    title="Project"
                                 >Project</Link></li>
                             <li>
                                 <Link 
@@ -34,6 +35,7 @@ export const Navbar = () => {
                                     smooth={true}
                                     duration={3000}
                                     offset={0}
+                                    title="About"
                                 >About</Link>
                             </li>
                            
@@ -43,11 +45,12 @@ export const Navbar = () => {
                                     smooth={true}
                                     duration={4500}
                                     offset={0}
+                                    title="Contact"
                                 >Contact</Link></li>
                             <li>
                             { theme === "dark" ? 
-                                <span><button className="modeIcon" value={light} onClick={clickEvent} aria-label="light-theme"><FiSun /></button></span>:
-                                <span><button className="modeIcon" value={dark} onClick={clickEvent} aria-label="dark-theme"><HiMoon /></button></span>
+                                <span><button className="modeIcon" value={light} onClick={clickEvent} aria-label="light-theme" title="Light-Theme"><FiSun /></button></span>:
+                                <span><button className="modeIcon" value={dark} onClick={clickEvent} aria-label="dark-theme" title="Dark-Theme"><HiMoon /></button></span>
                             }
                             </li>
                         </ul>   
@@ -61,6 +64,7 @@ export const Navbar = () => {
                                     smooth={true}
                                     duration={1500}
                                     offset={0}
+                                    title="Project"
                                 ><AiFillProject size="25" /></Link></li>
                             <li>
                                 <Link 
@@ -69,6 +73,7 @@ export const Navbar = () => {
                                     smooth={true}
                                     duration={4000}
                                     offset={0}
+                                    title="About"
                                 ><FcAbout size="25" /></Link>
                             </li>
                            
@@ -78,12 +83,13 @@ export const Navbar = () => {
                                     smooth={true}
                                     duration={5500}
                                     offset={0}
+                                    title="Contact"
                                 ><FcContacts size="25"/></Link>
                             </li>
                             <li>
                             { theme === "dark" ? 
-                                <span><button className="modeIcon" value={light} onClick={clickEvent} aria-label="light-theme"><FiSun size="25" /></button></span>:
-                                <span><button className="modeIcon" value={dark} onClick={clickEvent} aria-label="dark-theme"><HiMoon size="25"  /></button></span>
+                                <span><button className="modeIcon" value={light} onClick={clickEvent} aria-label="light-theme" title="Light-Theme"><FiSun size="25" /></button></span>:
+                                <span><button className="modeIcon" value={dark} onClick={clickEvent} aria-label="dark-theme" title="Dark-Theme"><HiMoon size="25"  /></button></span>
                             }
                             </li>
                         </ul>   

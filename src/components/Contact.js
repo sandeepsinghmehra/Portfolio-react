@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom';
 export const Contact = (props) => {
     return (
         <> 
-            <div className="contact" id={props.id}>
+            <section className="contact" id={props.id}>
          
                 <div className="contact__card">
                     <Fade left>
                     <div className="contact__card__card">
-                        <div><h2>Contact Me</h2></div>
+                        <div><h1>Contact Me</h1></div>
                         <div className="contact__card__card__group">
                             <label htmlFor="name">Name</label>
                             <input type="text" id="name" placeholder="Name" />
@@ -22,7 +22,7 @@ export const Contact = (props) => {
                             <input type="email" id="email" placeholder="E-mail" />
                         </div>
                         <div className="contact__card__card__group">    
-                            <label>Message</label>
+                            <label htmlFor="msg">Message</label>
                             <textarea className="textarea" placeholder="Your msg..." />
                         </div>
                         <button className="btn btn-blue">Send Me</button>   
@@ -30,7 +30,7 @@ export const Contact = (props) => {
                     </Fade>
                     <Fade right>
                     <div className="contact__card__detail">
-                        <h2>Contact Info</h2>
+                        <h1>Contact Info</h1>
                         <div className="contact__card__detail__info"> 
                             <span>Sandeep Mehra</span>
                             <span><RiShieldUserLine size={30} /> </span>
@@ -51,18 +51,18 @@ export const Contact = (props) => {
                         <div className="contact__card__detail__social-icons">
                             <IconContext.Provider value={{ className:"react-icon"}}>
                             <span>
-                                <Link to={{pathname:'https://www.linkedin.com/in/sandeep-singh-mehra-909a781b2'}} target="_blank" rel="noopener" aria-label="linkedIn" >
+                                <Link to={{pathname:'https://www.linkedin.com/in/sandeep-singh-mehra-909a781b2'}} target="_blank" rel="noopener" aria-label="linkedIn" title="LinkedIn" >
                                     <GrLinkedin size={50}/></Link>
                             </span>
                             <span>
-                                <Link to={{pathname: 'https://www.facebook.com/sandeepsinghmehara'}} target="_blank" rel="noopener" aria-label="facebook">
+                                <Link to={{pathname: 'https://www.facebook.com/sandeepsinghmehara'}} target="_blank" rel="noopener" aria-label="facebook" title="Facebook" >
                                     <GrFacebook size={50}/>
                                 </Link>
                             </span>
                         
                             </IconContext.Provider>
                             <span>
-                                <Link to={{pathname: 'https://github.com/sandeepsinghmehra'}} target="_blank" rel="noopener" aria-label="github">
+                                <Link to={{pathname: 'https://github.com/sandeepsinghmehra'}} target="_blank" rel="noopener" aria-label="git" title="Git" >
                                     <GrGithub size={50} className="git-icon"/>
                                 </Link>
                             </span>
@@ -72,7 +72,7 @@ export const Contact = (props) => {
                     </Fade>  
                 </div>
            
-            </div> 
+            </section> 
         </>
     )
 }

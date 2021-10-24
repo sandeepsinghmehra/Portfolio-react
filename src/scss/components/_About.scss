@@ -1,9 +1,10 @@
 @include responsive(mobile){
     div > .about {
         padding-top: 6rem;
-        & h2 {
+        & h1 {
             font-size: 2.4rem;
         }
+        
         & p {
             font-size: 1.5rem;
             font-weight: 500;
@@ -34,7 +35,13 @@
     }
     text-align: center;
     padding-top: 6rem;
-    
+    & h1 {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 600;
+        padding-bottom: 1rem;
+        text-decoration: underline;
+    }
     & p {
         @include themed() {
             color: t('text');
@@ -53,16 +60,17 @@ img {
     height: 8rem;
 }
 .skill {
-    width: 100%;
-    @include themed() {
-        color: t('text');
-        background: t('bg');
-    }
     position: relative;
     justify-content: center;
     padding: 5rem;
     text-align: center;
-    
+    & h2 {
+        text-align: center;
+        font-size: 2.4rem;
+        font-weight: 600;
+        padding-bottom: 1rem;
+        text-decoration: underline;
+    }
     &__div {
         display: grid;
         grid-template-columns:repeat(4, 1fr);

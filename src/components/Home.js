@@ -12,7 +12,7 @@ export const Home = (props) => {
     
     return (
         <>
-            <div className="row homeContainer" id={props.id}>
+            <section className="row homeContainer" id={props.id}>
                
                 <div className="col-6 homeContainer__left">
                     <Fade left>
@@ -20,7 +20,7 @@ export const Home = (props) => {
                         <span className="home__hello">Hello!    
                         <br />
                             <span className="home__im" > I'm </span>
-                            <strong className="home__name">Sandeep Mehra</strong>
+                            <h1 className="home__name">Sandeep Mehra</h1>
                         </span>
                         <div>
                             <strong className="home__braces">&#10100;</strong>
@@ -68,12 +68,13 @@ export const Home = (props) => {
                     <img src={MainImage} alt={MainImage} title="Boy Image" />
                 </div>
                 </Fade>
-            </div>
+            </section>
             <Link  to={"Project"}  
                    spy={true}
                    smooth={true}
                    duration={1500}
                    offset={0}
+                   title="Go to Project"
             >
                 <div className="scroll-down"></div>
             </Link>

@@ -13,7 +13,7 @@ export const Project = (props) => {
                 </Fade>
                 <Fade right>
                 <div className="project_card_heading">
-                    <h3>{Data[0].title}</h3>
+                    <h2>{Data[0].title}</h2>
                     <p>{Data[0].description}</p>
                     <div className="btn-group">
                         <span className="btn btn-dark mg-10">ReactJs</span>
@@ -35,7 +35,7 @@ export const Project = (props) => {
             <div className="project_card">
                 <Fade left>
                 <div className="project_card_heading">
-                    <h3>{Data[1].title}</h3>
+                    <h2>{Data[1].title}</h2>
                     <p>{Data[1].description}</p>
                     <div className="btn-group">
                         <span className="btn btn-dark mg-10">React</span>
@@ -61,7 +61,7 @@ export const Project = (props) => {
                 </Fade>
                 <Fade right>
                 <div className="project_card_heading">
-                    <h3>{Data[2].title}</h3>
+                    <h2>{Data[2].title}</h2>
                     <p>{Data[2].description}</p>
                     <div className="btn-group">
                         <span className="btn btn-dark mg-10">Html</span>
@@ -82,7 +82,7 @@ export const Project = (props) => {
             <div className="project_card">
                 <Fade left>
                 <div className="project_card_heading">
-                    <h3>{Data[3].title}</h3>
+                    <h2>{Data[3].title}</h2>
                     <p>{Data[3].description}</p>
                     <div className="btn-group">
                         <span className="btn btn-dark mg-10">Html</span>
@@ -108,7 +108,7 @@ export const Project = (props) => {
                 </Fade>
                 <Fade right>
                 <div className="project_card_heading">
-                    <h3>{Data[4].title}</h3>
+                    <h2>{Data[4].title}</h2>
                     <p>{Data[4].description}</p>
                     <div className="btn-group">
                         <span className="btn btn-dark mg-10">Html</span>

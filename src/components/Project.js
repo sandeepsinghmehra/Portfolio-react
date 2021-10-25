@@ -4,7 +4,8 @@ import { Data } from '../Data';
 import { Link } from 'react-router-dom';
 export const Project = (props) => {
     return (
-        <section id={props.id} className="project">
+        <section id={props.id}>
+            <div className="project">
             <h1>Projects</h1>
 
             <div className="project_card">
@@ -126,6 +127,7 @@ export const Project = (props) => {
                 </div>
                 </Fade>
             </div>
+        </div>
         </section>
     )
 }

@@ -1,30 +1,3 @@
-@include responsive(mobile){
-    div > .contact {
-        width: 100%;
-        padding: 2rem;
-        h1 {
-            font-size: 2.4rem;
-        }
-        div > &__card {
-            display: flex;
-            flex-direction: column;
-            font-size: 1.3rem;
-            div > &__card {
-                margin: 0rem;
-                padding: 2px;
-            }
-            div > &__detail {
-                height: 40rem;
-                margin: 0rem;
-                border: 5px solid $mainColorLightDark;
-                & h1 {
-                    font-size: 2.4rem;
-                }
-            }
-        }
-       
-    }
-}
 .contact {
     width: 100%;
     min-height: 100vh;
@@ -142,4 +115,30 @@
 .git-icon:hover {
     background-color: black;
     color: white;
+}
+@include responsive(mobile){
+    .contact {
+        padding: 2rem;
+        h1 {
+            font-size: 2.4rem;
+        }
+        div > &__card {
+            display: flex;
+            flex-direction: column;
+            font-size: 1.3rem;
+            div > &__card {
+                margin: 0rem;
+                padding: 2px;
+            }
+            div > &__detail {
+                height: 40rem;
+                margin: 0rem;
+                border: 5px solid $mainColorLightDark;
+                & h1 {
+                    font-size: 2.4rem;
+                }
+            }
+        }
+       
+    }
 }

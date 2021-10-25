@@ -15,7 +15,8 @@ import Vscode from '../images/vscode.webp';
 export const About = (props) => {
     return (
         <>
-            <section className="about" id={props.id}>
+            <section id={props.id}>
+                <div className="about">
                 <h1>About Me</h1>
                 <div>
                     <p>My name is Sandeep Singh Mehra. I'm a web designer and developer based in Haldwani, India.</p>
@@ -82,6 +83,7 @@ export const About = (props) => {
                             <p className="skill__card__title">Git</p>
                         </div>  
                     </div> 
+                </div>
                 </div>
             </section>
         </>

@@ -12,8 +12,8 @@ export const Home = (props) => {
     
     return (
         <>
-            <section className="row homeContainer" id={props.id}>
-               
+            <section id={props.id}>
+                <div className="row homeContainer">
                 <div className="col-6 homeContainer__left">
                     <Fade left>
                     <div>
@@ -68,6 +68,7 @@ export const Home = (props) => {
                     <img src={MainImage} alt={MainImage} title="Boy Image" />
                 </div>
                 </Fade>
+                </div>
             </section>
             <Link  to={"Project"}  
                    spy={true}

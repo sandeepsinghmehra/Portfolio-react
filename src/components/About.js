@@ -19,7 +19,7 @@ export const About = (props) => {
                 <div className="about">
                 <h1>About Me</h1>
                 <div>
-                    <p>My name is Sandeep Singh Mehra. I'm a web designer and developer based in Haldwani, India.</p>
+                    <p>My name is Sandeep Singh Mehra. I'm a web designer and developer based in Noida, India.</p>
 
                     <p>I'm a fresher in web-development. During the evenings I spend my time working on projects and building my own products in websites.</p>
 

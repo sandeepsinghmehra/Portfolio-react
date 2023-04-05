@@ -3,13 +3,23 @@ import { MdMyLocation} from "react-icons/md";
 import { AiOutlineMail} from "react-icons/ai";
 import { RiShieldUserLine } from "react-icons/ri";
 import { GrLinkedin, GrFacebook, GrGithub} from "react-icons/gr";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { IconContext } from "react-icons";
 import { Link } from 'react-router-dom';
 
 export const Contact = (props) => {
+    
     return (
         <> 
             <section id={props.id}>
+                <Link
+                    href="https://wa.me/+917536885806"
+                    class="whatsapp_float"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <IoLogoWhatsapp className="whatsapp-icon"/>
+                </Link>
                 <div className="contact">
                     <div className="contact__card">
                             <div className="contact__card__card">
@@ -35,7 +45,7 @@ export const Contact = (props) => {
                                     <span><RiShieldUserLine size={30} /> </span>
                                 </div>
                                 <div className="contact__card__detail__info">
-                                    <span style={{fontStyle: "italic"}}>sandysmart017@gamil.com</span>
+                                    <span style={{fontStyle: "italic"}}>sandeepsm017@gamil.com</span>
                                     <span><AiOutlineMail size={30} /> </span>
                                 </div>
                                 <div className="contact__card__detail__info">
@@ -43,7 +53,7 @@ export const Contact = (props) => {
                                     <span><BiPhoneCall size={30} /> </span>
                                 </div>
                                 <div className="contact__card__detail__info">
-                                    <span>Betalghat, Nainital, Uttarakhand 263134</span>
+                                    <span>Nainital, Uttarakhand 263134</span>
                                     <span><MdMyLocation size={30} /> </span>
                                 </div>
                                     <div className="contact__card__detail__social-icons">

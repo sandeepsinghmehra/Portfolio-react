@@ -12,14 +12,14 @@ export const Contact = (props) => {
     return (
         <> 
             <section id={props.id}>
-                <Link
-                    href="https://wa.me/+917536885806"
+                <a
+                    href={'https://wa.me/+917536885806'}
                     class="whatsapp_float"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <IoLogoWhatsapp className="whatsapp-icon"/>
-                </Link>
+                </a>
                 <div className="contact">
                     <div className="contact__card">
                             <div className="contact__card__card">

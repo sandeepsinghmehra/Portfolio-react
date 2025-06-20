@@ -49,7 +49,7 @@ export const Contact = (props) => {
                                     <span><AiOutlineMail size={30} /> </span>
                                 </div>
                                 <div className="contact__card__detail__info">
-                                    <span>+91 6398089297</span>
+                                    <span>+91 7536885806</span>
                                     <span><BiPhoneCall size={30} /> </span>
                                 </div>
                                 <div className="contact__card__detail__info">
